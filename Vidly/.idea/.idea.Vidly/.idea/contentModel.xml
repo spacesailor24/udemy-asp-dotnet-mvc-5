@@ -8,6 +8,7 @@
         <e p="WebApiConfig.cs" t="Include" />
       </e>
       <e p="Content" t="Include">
+        <e p="bootstrap-darkly.css" t="Include" />
         <e p="bootstrap-theme.css" t="Include" />
         <e p="bootstrap-theme.css.map" t="Include" />
         <e p="bootstrap-theme.min.css" t="Include" />
@@ -20,10 +21,13 @@
       </e>
       <e p="Controllers" t="Include">
         <e p="HomeController.cs" t="Include" />
+        <e p="MoviesController.cs" t="Include" />
       </e>
       <e p="Global.asax" t="Include" />
       <e p="Global.asax.cs" t="Include" />
-      <e p="Models" t="Include" />
+      <e p="Models" t="Include">
+        <e p="Movie.cs" t="Include" />
+      </e>
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>
@@ -43,6 +47,9 @@
           <e p="About.cshtml" t="Include" />
           <e p="Contact.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Movies" t="Include">
+          <e p="Random.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="Error.cshtml" t="Include" />
