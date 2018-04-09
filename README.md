@@ -13,6 +13,8 @@ Your First ASP.NET MVC App | [Lecture 4](#section-1-lecture-4)
 Action Results | [Lecture 10](#section-2-lecture-10)
 Action Parameters | [Lecture 11](#section-2-lecture-11)
 Convention Based Routing | [Lecture 12](#section-2-lecture-12)
+Attribute Routing | [Lecture 13](#section-2-lecture-13)
+Razor Syntax | [Lecture 16](#section-2-lecture-16)
 
 ## General Notes
 
@@ -117,3 +119,30 @@ routes.MapRoute(
     }
 );
 ```
+
+### Section 2 Lecture 13
+
+#### Attribute Routing
+
+- You can declare your **Routes** within a **Controller** utilizing the following:
+
+```csharp
+[Route("movies/released/{year:regex(\\d{4}/{month:regex(\\d{4}):range(1, 12)")]
+public ActionResult ByReleaseDate(int year, int month)
+{
+    // Limit Movies by Year and Month
+}
+```
+
+##### Constraints available for Routing
+
+[ASP.NET MVC Attribute Route Constraints Documentation](https://docs.microsoft.com/en-us/aspnet/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2#route-constraints)
+
+![ASP.NET MVC Attribute Route Constraints](img/asp_dotnet_mvc_attribute_route_constraints.png?raw=true "ASP.NET MVC Attribute Route Constraints")
+
+### Section 2 Lecture 16
+
+#### Razor Syntax
+
+- Create Dynamic anchor tags with: `@Html.ActionLink("Anchor tag text", "Action/View", "Controller/Class")`
+- Optionally, you can pass parameters like such: `@Html.ActionLink("Anchor tag text", "Action/View", "Controller/Class", new { parameterKey = value }, null)`

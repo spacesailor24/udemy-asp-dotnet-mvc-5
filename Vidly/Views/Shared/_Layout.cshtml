@@ -9,29 +9,10 @@
   <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
 </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      @Html.ActionLink("Vidly", "Index", "Home", null, new { @class = "navbar-brand" })
-    </div>
-    <div class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-        <li>@Html.ActionLink("About", "About", "Home")</li>
-        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-      </ul>
-    </div>
-  </div>
-</div>
+@Html.Partial("_NavBar")
 <div class="container body-content">
   @RenderBody()
-  <hr />
+  <hr/>
   <footer>
     <p>&copy; 2016 - Vidly</p>
   </footer>
@@ -40,7 +21,7 @@
 <environment names="Development">
   <script src="~/Scripts/jquery-1.9.1.js"></script>
   <script src="~/Scripts/bootstrap.js"></script>
-  <script src="~/Scripts/site.js" ></script>
+  <script src="~/Scripts/site.js"></script>
 </environment>
 
 @RenderSection("scripts", required: false)

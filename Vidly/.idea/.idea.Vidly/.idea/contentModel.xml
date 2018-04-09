@@ -20,12 +20,14 @@
         <e p="site.css" t="Include" />
       </e>
       <e p="Controllers" t="Include">
+        <e p="CustomersController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
         <e p="MoviesController.cs" t="Include" />
       </e>
       <e p="Global.asax" t="Include" />
       <e p="Global.asax.cs" t="Include" />
       <e p="Models" t="Include">
+        <e p="Customer.cs" t="Include" />
         <e p="Movie.cs" t="Include" />
       </e>
       <e p="Properties" t="Include">
@@ -42,18 +44,27 @@
       </e>
       <e p="Vidly.csproj" t="IncludeRecursive" />
       <e p="Vidly.sln" t="IncludeFlat" />
+      <e p="ViewModels" t="Include">
+        <e p="CustomersViewModel.cs" t="Include" />
+        <e p="MoviesViewModel.cs" t="Include" />
+        <e p="RandomMovieViewModel.cs" t="Include" />
+      </e>
       <e p="Views" t="Include">
+        <e p="Customers" t="Include">
+          <e p="Index.cshtml" t="Include" />
+          <e p="Show.cshtml" t="Include" />
+        </e>
         <e p="Home" t="Include">
-          <e p="About.cshtml" t="Include" />
-          <e p="Contact.cshtml" t="Include" />
           <e p="Index.cshtml" t="Include" />
         </e>
         <e p="Movies" t="Include">
+          <e p="Index.cshtml" t="Include" />
           <e p="Random.cshtml" t="Include" />
         </e>
         <e p="Shared" t="Include">
           <e p="Error.cshtml" t="Include" />
           <e p="_Layout.cshtml" t="Include" />
+          <e p="_NavBar.cshtml" t="Include" />
         </e>
         <e p="Web.config" t="Include" />
         <e p="_ViewStart.cshtml" t="Include" />
