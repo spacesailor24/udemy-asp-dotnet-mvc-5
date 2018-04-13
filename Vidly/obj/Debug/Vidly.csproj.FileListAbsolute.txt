@@ -25,3 +25,8 @@
 /home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/obj/Debug/Vidly.csproj.CoreCompileInputs.cache
 /home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/obj/Debug/Vidly.dll
 /home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/obj/Debug/Vidly.pdb
+/home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/bin/Vidly.dll.config
+/home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/bin/EntityFramework.dll
+/home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/bin/EntityFramework.SqlServer.dll
+/home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/bin/EntityFramework.xml
+/home/wyatt/Public/Code/udemy/the-complete-aspnet-mvc-5-course/Vidly/bin/EntityFramework.SqlServer.xml

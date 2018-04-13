@@ -146,3 +146,27 @@ public ActionResult ByReleaseDate(int year, int month)
 
 - Create Dynamic anchor tags with: `@Html.ActionLink("Anchor tag text", "Action/View", "Controller/Class")`
 - Optionally, you can pass parameters like such: `@Html.ActionLink("Anchor tag text", "Action/View", "Controller/Class", new { parameterKey = value }, null)`
+
+<!-- ################################################################################################################ -->
+<!--                                                     SECTION 3                                                    -->
+<!-- ################################################################################################################ -->
+
+## SECTION 3
+
+### Section 3 Lecture 23
+
+#### Entity Framework
+
+![Entity Framework Diagram](img/entity_framework_diagram.png?raw=true "Entity Framework Diagrams")
+
+### Section 3 Lecture 24
+
+#### Database-first vs Code-first
+
+#### Database-first
+
+![Database-first Diagram](img/database_first_diagram.png?raw=true "Database-first Diagram")
+
+#### Code-first
+
+![Code-first Diagram](img/code_first_diagram.png?raw=true "Code-first Diagram")
